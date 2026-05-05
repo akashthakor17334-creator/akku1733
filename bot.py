@@ -37,8 +37,7 @@ MONGODB_URI = "mongodb+srv://thakorbgmi12_db_user:qx21sg6gDWRqGnMw@cluster0.getq
 DATABASE_NAME = "akku1733"
 API_URL = "https://vehicular-perpetual-profile.ngrok-free.dev/attack"
 API_KEY = "akku_pc"
-ADMIN_IDS = [5399774279]
-
+ADMIN_IDS = [5399774279, 7478078534]
 # Blocked ports (must match backend)
 BLOCKED_PORTS = {8700, 20000, 443, 17500, 9031, 20002, 20001}
 
