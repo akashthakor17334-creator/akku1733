@@ -137,8 +137,8 @@ class Database:
         user_data = {
             "user_id": user_id,
             "username": username,
-            "approved": False,
-            "approved_at": None,
+            "approved": True,
+            "approved_at": get_current_time(),
             "expires_at": None,
             "total_attacks": 0,
             "created_at": get_current_time(),
