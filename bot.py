@@ -34,11 +34,10 @@ load_dotenv()
 
 BOT_TOKEN = "8575268232:AAGMCI4-kYDS8JzPNJ1MY0RCyYFlOU5zBWk"
 MONGODB_URI = "mongodb+srv://thakorbgmi12_db_user:qx21sg6gDWRqGnMw@cluster0.getqxcf.mongodb.net/?appName=Cluster0"
-DATABASE_NAME = "akku1733"
+DATABASE_NAME = "akku_final_test"
 API_URL = "https://vehicular-perpetual-profile.ngrok-free.dev/attack"
 API_KEY = "akku_pc"
 ADMIN_IDS = [5399774279, 7478078534]
-# Blocked ports (must match backend)
 BLOCKED_PORTS = {8700, 20000, 443, 17500, 9031, 20002, 20001}
 
 # Allowed port range
