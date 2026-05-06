@@ -32,9 +32,9 @@ logger = logging.getLogger(__name__)
 
 load_dotenv()
 
-BOT_TOKEN = "7670095148:AAF-MJyJY9fDWJQ7T089IkiZUX6nNrAltlw"
+BOT_TOKEN = "8575268232:AAFS7hBdSIRd2bPNihYP4wMvMpmqBIlsj8c"
 MONGODB_URI = "mongodb+srv://thakorbgmi12_db_user:qx21sg6gDWRqGnMw@cluster0.getqxcf.mongodb.net/?appName=Cluster0"
-DATABASE_NAME = "akku_final_test"
+DATABASE_NAME = "akkuu_final_test"
 API_URL = "https://vehicular-perpetual-profile.ngrok-free.dev/attack"
 API_KEY = "akku_pc"
 ADMIN_IDS = [5399774279]
