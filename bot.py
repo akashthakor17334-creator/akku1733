@@ -21,7 +21,13 @@ import html
 import uuid
 import os
 from dotenv import load_dotenv
+from datetime import datetime
+import pytz
 
+def get_current_time():
+    # India (IST) time set karne ke liye
+    tz = pytz.timezone('Asia/Kolkata')
+    return datetime.now(tz)
 # Configure logging
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
