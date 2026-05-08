@@ -355,7 +355,7 @@ def launch_attack(ip: str, port: int, duration: int) -> Dict:
     """Launch attack via API - REQUIRES API KEY"""
     try:
         response = requests.post(
-            f"{API_URL}/api/v1/attack",  # Added /api/v1/ prefix
+            f"{API_URL}/attack",
             json={"ip": ip, "port": port, "duration": duration},
             headers={"x-api-key": API_KEY, "Content-Type": "application/json"},
             timeout=15
