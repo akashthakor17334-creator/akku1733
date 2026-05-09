@@ -43,7 +43,7 @@ MONGODB_URI = "mongodb+srv://thakorbgmi12_db_user:qx21sg6gDWRqGnMw@cluster0.getq
 DATABASE_NAME = "akkuu_final_test"
 API_URL = "https://vehicular-perpetual-profile.ngrok-free.dev"
 API_KEY = "akku_pc"
-ADMIN_IDS = []
+ADMIN_IDS = [5399774279]
 BLOCKED_PORTS = {8700, 20000, 443, 17500, 9031, 20002, 20001}
 
 # Allowed port range
